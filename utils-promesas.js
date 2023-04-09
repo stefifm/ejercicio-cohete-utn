@@ -4,7 +4,7 @@ export const getRandomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-// Mostrar horas y lanzar error
+// Mostrar horas
 export const mostrarHora = () => {
   const time = new Date()
   const hora = time.getHours()
